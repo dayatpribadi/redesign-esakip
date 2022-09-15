@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="159.525" height="159.525" viewBox="0 0 159.525 159.525">
+  <defs>
+    <filter id="Rectangle_82" x="0" y="0" width="159.525" height="159.525" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="small-video-icon" transform="matrix(0.899, 0.438, -0.438, 0.899, -342.664, -557.55)">
+    <g transform="matrix(0.9, -0.44, 0.44, 0.9, 552.4, 350.91)" filter="url(#Rectangle_82)">
+      <rect id="Rectangle_82-2" data-name="Rectangle 82" width="98.86" height="98.86" rx="14" transform="translate(39.67 14.5) rotate(10)" fill="#fff"/>
+    </g>
+    <g id="video-player" transform="translate(634.529 368.734)">
+      <path id="Tracé_343" data-name="Tracé 343" d="M23.305,0H4.549A4.554,4.554,0,0,0,0,4.549v15.1A4.554,4.554,0,0,0,4.549,24.2H23.305a4.554,4.554,0,0,0,4.549-4.549V4.549A4.554,4.554,0,0,0,23.305,0Zm2.729,19.647a2.732,2.732,0,0,1-2.729,2.729H4.549A2.733,2.733,0,0,1,1.82,19.647V4.549A2.733,2.733,0,0,1,4.549,1.82H23.305a2.732,2.732,0,0,1,2.729,2.729Zm0,0" fill="#516ee3"/>
+      <path id="Tracé_344" data-name="Tracé 344" d="M342.857,24.84a.91.91,0,0,0-.914.007l-10.059,5.939a.91.91,0,0,0-.447.784v5.487a.91.91,0,0,0,.352.719l10.059,7.809a.91.91,0,0,0,1.468-.719V25.63a.91.91,0,0,0-.459-.79ZM341.5,43.008l-8.24-6.4V32.089l8.24-4.865Zm0,0" transform="translate(-301.282 -22.471)" fill="#516ee3"/>
+    </g>
+  </g>
+</svg>

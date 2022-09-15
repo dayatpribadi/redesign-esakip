@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122.195" height="122.195" viewBox="0 0 122.195 122.195">
+  <defs>
+    <filter id="Rectangle_82" x="0" y="0" width="122.195" height="122.195" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="small-share-icon" transform="matrix(0.899, 0.438, -0.438, 0.899, -366.153, -579.566)">
+    <g transform="matrix(0.9, -0.44, 0.44, 0.9, 583.16, 360.4)" filter="url(#Rectangle_82)">
+      <rect id="Rectangle_82-2" data-name="Rectangle 82" width="66.636" height="66.636" rx="14" transform="translate(34.07 14.5) rotate(10)" fill="#fff"/>
+    </g>
+    <path id="share" d="M24.962,12.479,13.582,0V7.475H12.26A12.26,12.26,0,0,0,0,19.735v5.235l2.184-2.393a15.672,15.672,0,0,1,11.4-5.094v7.474Zm-23.5,8.73V19.735a10.8,10.8,0,0,1,10.8-10.8h2.785V3.776l7.937,8.7-7.937,8.7V16.019H13.732a17.139,17.139,0,0,0-12.269,5.19Zm0,0" transform="translate(648.885 369.138)" fill="#1dc8b6"/>
+  </g>
+</svg>

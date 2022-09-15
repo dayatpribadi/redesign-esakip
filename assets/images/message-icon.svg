@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176.111" height="176.111" viewBox="0 0 176.111 176.111">
+  <defs>
+    <filter id="Rectangle_82" x="0" y="0" width="176.111" height="176.111" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="message-icon" transform="translate(-594.944 -326.944)">
+    <g transform="matrix(1, 0, 0, 1, 594.94, 326.94)" filter="url(#Rectangle_82)">
+      <rect id="Rectangle_82-2" data-name="Rectangle 82" width="106" height="106" rx="24" transform="translate(22.5 43.72) rotate(-16)" fill="#fff"/>
+    </g>
+    <path id="comments" d="M26.494,24.625a9.212,9.212,0,0,0-3.606-13.91A10.528,10.528,0,1,0,4.215,18.993L2.385,20.809a1.324,1.324,0,0,0,.934,2.25h7.488a9.212,9.212,0,0,0,8.3,5.264h7.9a1.324,1.324,0,0,0,.934-2.25ZM9.9,19.111A8.725,8.725,0,0,0,10,20.427H6.491l.461-.447a1.316,1.316,0,0,0,0-1.869,7.8,7.8,0,0,1-2.316-5.58,7.9,7.9,0,0,1,7.9-7.9A7.817,7.817,0,0,1,19.967,9.9h-.855A9.212,9.212,0,0,0,9.9,19.111Zm13.87,6.58.066.066H19.111a6.58,6.58,0,1,1,4.659-1.921,1.287,1.287,0,0,0,0,1.856Z" transform="translate(668.012 392.01)" fill="#1dc8b6"/>
+  </g>
+</svg>

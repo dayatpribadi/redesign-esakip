@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="498" height="575" viewBox="0 0 498 575">
+  <defs>
+    <filter id="_card" x="18" y="34" width="462" height="541" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="active_card" x="0" y="0" width="498" height="549" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-2"/>
+      <feFlood flood-opacity="0.129"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="card" transform="translate(-110.002 -1073)">
+    <rect id="Rectangle_84" data-name="Rectangle 84" width="264" height="264" rx="44" transform="translate(128 1087)" fill="rgba(0,163,255,0.13)"/>
+    <rect id="Rectangle_85" data-name="Rectangle 85" width="245" height="245" rx="45" transform="translate(325 1371)" fill="rgba(254,73,153,0.27)"/>
+    <g id="Groupe_16" data-name="Groupe 16" transform="translate(324.752 1410)">
+      <g id="rate_block" data-name="rate block" transform="translate(-140 -272)">
+        <g id="Groupe_2" data-name="Groupe 2">
+          <g transform="matrix(1, 0, 0, 1, -74.75, -65)" filter="url(#_card)">
+            <rect id="_card-2" data-name=" card" width="312" height="391" rx="39" transform="translate(93 99)" fill="#9e9e9e" opacity="0.62"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -74.75, -65)" filter="url(#active_card)">
+            <rect id="active_card-2" data-name="active card" width="348" height="399" rx="33" transform="translate(75 65)" fill="#9e9e9e"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

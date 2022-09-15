@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'spartan_mbbold';
+  src: url("../fonts/spartanmb-bold.woff2") format("woff2"), url("spartanmb-bold.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'spartan_mblight';
+  src: url("../fonts/spartanmb-light.woff2") format("woff2"), url("spartanmb-light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'spartan_mbmedium';
+  src: url("../fonts/spartanmb-medium.woff2") format("woff2"), url("spartanmb-medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'spartan_mbregular';
+  src: url("../fonts/spartanmb-regular.woff2") format("woff2"), url("spartanmb-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'spartan_mbsemibold';
+  src: url("../fonts/spartanmb-semibold.woff2") format("woff2"), url("spartanmb-semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=variables.css.map */

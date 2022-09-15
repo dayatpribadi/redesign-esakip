@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176.111" height="176.111" viewBox="0 0 176.111 176.111">
+  <defs>
+    <filter id="Rectangle_82" x="0" y="0" width="176.111" height="176.111" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="star-icon1" transform="translate(-594.944 -326.944)">
+    <g transform="matrix(1, 0, 0, 1, 594.94, 326.94)" filter="url(#Rectangle_82)">
+      <rect id="Rectangle_82-2" data-name="Rectangle 82" width="106" height="106" rx="24" transform="translate(22.5 43.72) rotate(-16)" fill="#fff"/>
+    </g>
+    <g id="star_10_" data-name="star (10)" transform="translate(639.18 391.369) rotate(-39)">
+      <g id="Groupe_5" data-name="Groupe 5" transform="translate(0 17.647)">
+        <path id="Tracé_333" data-name="Tracé 333" d="M48,34.685,31.387,32.319,24,17.647,16.612,32.319,0,34.685,12.024,46.173,9.2,62.338,24,54.709l14.8,7.629L35.976,46.173Zm-24,15.8-9.8,5.051L16.07,44.844,8.187,37.313l10.9-1.552L24,26l4.915,9.762,10.9,1.552L31.93,44.844,33.8,55.535Z" transform="translate(0 -17.647)" fill="#ffe14d"/>
+      </g>
+    </g>
+  </g>
+</svg>

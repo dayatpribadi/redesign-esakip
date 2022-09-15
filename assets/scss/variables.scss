@@ -1,0 +1,121 @@
+//variables
+ 
+
+@font-face {
+    font-family: 'spartan_mbbold';
+    src: url('../fonts/spartanmb-bold.woff2') format('woff2'),
+         url('spartanmb-bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'spartan_mblight';
+    src: url('../fonts/spartanmb-light.woff2') format('woff2'),
+         url('spartanmb-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'spartan_mbmedium';
+    src: url('../fonts/spartanmb-medium.woff2') format('woff2'),
+         url('spartanmb-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'spartan_mbregular';
+    src: url('../fonts/spartanmb-regular.woff2') format('woff2'),
+         url('spartanmb-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'spartan_mbsemibold';
+    src: url('../fonts/spartanmb-semibold.woff2') format('woff2'),
+         url('spartanmb-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+// font 
+$font-spartan_mbbold:'spartan_mbbold';
+$font-spartan_mblight:'spartan_mblight';
+$font-spartan_mbmedium: 'spartan_mbmedium';
+$font-spartan_mbregular: 'spartan_mbregular';
+$font-spartan_mbsemibold:'spartan_mbsemibold';
+$font-11:11px;
+$font-12:12px;
+$font-13:13px;
+$font-14:14px;
+$font-15:15px;
+$font-16:16px;
+$font-18:18px;
+$font-20:20px;
+$font-22:22px;
+$font-24:24px;
+$font-26:26px;
+$font-28:28px;
+$font-30:30px;
+$font-32:32px;
+$font-36:36px;
+$font-38:38px;
+$font-40:40px;
+$font-42:42px;
+$font-45:45px;
+$font-50:50px;
+$font-60:60px;
+
+// colors
+
+$color1:#212529;
+$color2:#ffffff;
+$color3:#7184AD;
+$color4:#516EE3;
+$color5:#EFF2FD;
+$color6:#1F2C73;
+$color7:#FE4999;
+$color8:#66C5FC;
+$color9:#FD974F;
+$color10:rgba(250,200,222,0.35);
+$color11:rgba(220,241,253,0.4);
+$color12:rgba(253,151,79,0.23);
+$color13:rgba(81,110,227,0.13);
+$color14:#ffe032;
+$color15:#1e2e50;
+$color16: #e9f4ff;
+$color17:rgb(214 227 241 / 50%);
+$color-transparent:transparent;
+$tp-0:0;
+$tp-5:5px;
+$tp-7:7px;
+$tp-10:10px;
+$tp-15:15px;
+$tp-20:20px;
+$tp-25:25px;
+$tp-30:30px;
+$tp-40:40px;
+$tp-50:50px;
+$tp-60:60px;
+$tp-70:70px;
+$tp-80:80px;
+$tp-90:90px;
+$tp-100:100px;
+$tp-110:110px;
+$tp-120:120px;
+$tp-130:130px;
+$tp-140:140px;
+$tp-150:150px;
+$tp-160:160px;
+$tp-170:170px;
+$tp-180:180px;
+$tp-190:190px;
+$tp-200:200px;
+$tp-250:250px;
+$tp-320:320px;
+
+
+

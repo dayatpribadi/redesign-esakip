@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="442" height="252" viewBox="0 0 442 252">
+  <defs>
+    <filter id="card" x="0" y="0" width="442" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="60" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="card-2" x="40.5" y="24.5" width="61" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="196" height="27" transform="translate(-2 1)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="comment1" transform="translate(44 -177)">
+    <g transform="matrix(1, 0, 0, 1, -44, 177)" filter="url(#card)">
+      <rect id="card-3" data-name="card" width="292" height="102" rx="15" transform="translate(75 15)" fill="#fff"/>
+    </g>
+    <g id="avatar" transform="translate(4 207)">
+      <g transform="matrix(1, 0, 0, 1, -48, -30)" filter="url(#card-2)">
+        <rect id="card-4" data-name="card" width="46" height="46" rx="8" transform="translate(48 30)" fill="#9e9e9e"/>
+      </g>
+    </g>
+    <text id="Pfannerstill_Pattie" data-name="Pfannerstill Pattie" transform="translate(65 223)" fill="#22215b" font-size="13" font-family="SFProDisplay-Regular, SF Pro Display"><tspan x="0" y="0">Pfannerstill Pattie</tspan></text>
+    <g id="Groupe_défilant_1" data-name="Groupe défilant 1" transform="translate(64 238)" clip-path="url(#clip-path)">
+      <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" transform="translate(0 10)" fill="#bfc3db" font-size="11" font-family="SFProDisplay-Light, SF Pro Display" font-weight="300"><tspan x="0" y="0">Lorem ipsum dolor sit amet, consectetur</tspan><tspan x="0" y="16">adipiscing elit, sed do eiusmod tempor</tspan></text>
+    </g>
+    <text id="Jun_07_03:05_PM_" data-name="Jun 07, 03:05 PM " transform="translate(256 221)" fill="#bfc3db" font-size="7" font-family="SFProDisplay-Light, SF Pro Display" font-weight="300" opacity="0.65"><tspan x="0" y="0">Jun 07, 03:05 PM</tspan></text>
+    <path id="heart_1_" data-name="heart (1)" d="M12.538,4.212A3.652,3.652,0,0,0,7.8,3.84a3.64,3.64,0,0,0-4.738,5.5l3.605,3.611a1.614,1.614,0,0,0,2.264,0l3.6-3.611a3.64,3.64,0,0,0,0-5.132ZM11.72,8.543,8.114,12.149a.441.441,0,0,1-.627,0L3.882,8.526A2.463,2.463,0,1,1,7.365,5.042a.581.581,0,0,0,.824,0,2.48,2.48,0,1,1,3.53,3.484Z" transform="translate(265.012 268.879)" fill="#f0115c"/>
+    <path id="share" d="M10.294,5.146,5.6,0V3.083H5.056A5.056,5.056,0,0,0,0,8.139V10.3l.9-.987a6.463,6.463,0,0,1,4.7-2.1V10.3ZM.6,8.747V8.139A4.453,4.453,0,0,1,5.056,3.686H6.2V1.557L9.478,5.146,6.2,8.736V6.607H5.663A7.068,7.068,0,0,0,.6,8.747Zm0,0" transform="translate(288 272)" fill="#bfc3db"/>
+  </g>
+</svg>

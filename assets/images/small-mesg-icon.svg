@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.91" height="136.91" viewBox="0 0 136.91 136.91">
+  <defs>
+    <filter id="Rectangle_82" x="0" y="0" width="136.91" height="136.91" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="small-mesg-icon" transform="matrix(0.899, 0.438, -0.438, 0.899, -352.413, -558.713)">
+    <g transform="matrix(0.9, -0.44, 0.44, 0.9, 561.67, 347.68)" filter="url(#Rectangle_82)">
+      <rect id="Rectangle_82-2" data-name="Rectangle 82" width="79.338" height="79.338" rx="14" transform="translate(36.28 14.5) rotate(10)" fill="#fff"/>
+    </g>
+    <path id="comments" d="M34.763,28.77a9.911,9.911,0,0,0,2.051-9.252,11.368,11.368,0,0,0-6.873-7.205c-1-5.109-5.481-9.134-11.24-10.1S7.107,3.528,4.052,7.954a11.3,11.3,0,0,0,.914,14.152L2.519,24.255a1.427,1.427,0,0,0-.37,1.7,1.774,1.774,0,0,0,1.619.965H13.783a12.529,12.529,0,0,0,11.106,6.228h10.56a1.774,1.774,0,0,0,1.619-.965,1.427,1.427,0,0,0-.37-1.7ZM12.569,22.247A9.16,9.16,0,0,0,12.71,23.8h-4.7l.616-.529a1.434,1.434,0,0,0,0-2.211,8.731,8.731,0,0,1-3.1-6.6c0-5.159,4.728-9.342,10.56-9.342a10.456,10.456,0,0,1,9.944,6.228H24.889c-6.8,0-12.32,4.88-12.32,10.9Zm18.55,7.785.088.078H24.889c-4.2-.007-7.806-2.635-8.618-6.279s1.4-7.287,5.279-8.7a9.463,9.463,0,0,1,10.679,2.881,7.127,7.127,0,0,1-1.109,9.828,1.4,1.4,0,0,0,0,2.2Z" transform="translate(629.744 354.436)" fill="#fe4999"/>
+  </g>
+</svg>

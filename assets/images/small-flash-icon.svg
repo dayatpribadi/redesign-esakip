@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109.396" height="109.396" viewBox="0 0 109.396 109.396">
+  <defs>
+    <filter id="Rectangle_82" x="0" y="0" width="109.396" height="109.396" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="small-flash-icon" transform="matrix(0.899, 0.438, -0.438, 0.899, -366.406, -576.829)">
+    <g transform="matrix(0.9, -0.44, 0.44, 0.9, 582.19, 357.83)" filter="url(#Rectangle_82)">
+      <rect id="Rectangle_82-2" data-name="Rectangle 82" width="55.588" height="55.588" rx="14" transform="translate(32.15 14.5) rotate(10)" fill="#fff"/>
+    </g>
+    <path id="flash" d="M51.575,9.882a.514.514,0,0,0-.447-.26H44.4L45.529,1a.517.517,0,0,0-.947-.336L36.4,15a.514.514,0,0,0,.437.783h6.627l-.894,8.631a.517.517,0,0,0,.951.316L51.569,10.4A.514.514,0,0,0,51.575,9.882Z" transform="translate(607.859 363.27)" fill="#fd974f"/>
+  </g>
+</svg>
