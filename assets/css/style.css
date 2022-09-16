@@ -17200,14 +17200,29 @@ header .navbar .navbar-nav .last-nav-item a i {
   background-color: #ffffff;
   border-radius: 50%;
 }
+
 .hero .hero-text .action_btns .video-btn:hover, .hero .hero-text .action_btns .video-btn:focus {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.12);
 }
+
 .hero .mobile-staff .mobile-img {
   position: relative;
   z-index: 1;
   margin-bottom: -200px;
 }
+
+.img_mbstaff {
+  width: 250px;
+}
+
+.logo__lo {
+  width: 50px;
+}
+
+.logo__bsre {
+  width: 150px;
+}
+
 .hero .mobile-staff .icon-pos {
   position: absolute;
   top: 0;
