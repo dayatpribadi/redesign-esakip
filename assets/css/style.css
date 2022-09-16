@@ -17356,6 +17356,7 @@ header .navbar .navbar-nav .last-nav-item a i {
 }
 
 .emoji-1 img {
+  width: 80px;
   height: 80px;
   border-radius: 20px;
   transform: rotate(20deg);
@@ -17369,6 +17370,7 @@ header .navbar .navbar-nav .last-nav-item a i {
 }
 
 .emoji-2 img {
+  width: 80px;
   height: 80px;
   border-radius: 20px;
   transform: rotate(-20deg);
@@ -17417,6 +17419,11 @@ header .navbar .navbar-nav .last-nav-item a i {
 .logo span img {
   width: 150px;
   height: 50px;
+}
+
+.logogo {
+  width: 60px;
+  height: 60px;
 }
 
 /*------------------------Features-------------------------*/
