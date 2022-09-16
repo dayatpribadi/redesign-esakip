@@ -17414,6 +17414,11 @@ header .navbar .navbar-nav .last-nav-item a i {
   background-color: #ffffff;
 }
 
+.logo span img {
+  width: 150px;
+  height: 50px;
+}
+
 /*------------------------Features-------------------------*/
 .img-block {
   position: relative;
