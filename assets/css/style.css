@@ -19468,5 +19468,12 @@ h3.renja-header {
   transform: rotate(-2deg);
 }
 
+
+ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+
 /*# sourceMappingURL=style.css.map */
 

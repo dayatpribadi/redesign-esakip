@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
   <!--Metas-->
   <meta charset="UTF-8">
@@ -12,7 +15,9 @@
 
   <!-- Stylesheets css-->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+
 </head>
 
   <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
@@ -79,24 +84,33 @@
               </div>
             </div>
           </div>
-
-          <div class="container pd-tp-80 pd-bt-80">
+          <div class="container-fluid pd-tp-80 pd-bt-80">
             <div class="row">
-              <div class="col-12">
-                <select class="form-select select-map mb-4" aria-label="Default select example">
+              <div class="col-lg-2 col-md-6 bg-primary rounded-end pt-4 pb-5 mb-3">
+                <ul>
+                  <li><a href="#"><i class="ti-line-dotted"></i> SKPD</a></li>
+                  <li><a href="#"><i class="ti-line-dotted"></i> Kecamatan</a></li>
+                  <li><a href="#"><i class="ti-line-dotted"></i> Kelurahan</a></li>
+                  <li><a href="#"><i class="ti-line-dotted"></i> Puskesmas</a></li>
+                </ul>
+                <!-- <select class="form-select select-map mb-4" aria-label="Default select example">
                   <option selected>Pilih Data</option>
                   <option value="1">Lihat Semua Data</option>
                   <option value="2">SKPD</option>
                   <option value="3">Kecamatan</option>
                   <option value="4">Kelurahan</option>
                   <option value="5">Puskesmas</option>
-                </select>
-
-
+                </select> -->
+              </div>
+              <div class="col-lg-10 col-md-12">
                 <div id="map"></div>
               </div>
+
             </div>
           </div>
+
+
+
         </section>
 
         <!-- Footer-->
