@@ -17213,7 +17213,7 @@ header .navbar .navbar-nav .last-nav-item a i {
 
 .img_mbstaff {
   width: 80%;
-  
+
 }
 
 .logo__lo {
@@ -19475,6 +19475,12 @@ ul li a {
   text-decoration: none;
 }
 
+
+@media (max-width: 991px) {
+  .col-imgs {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
 
