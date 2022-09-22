@@ -12,18 +12,20 @@
   <!-- Favicon Website-->
   <link rel="shortcut icon" href="assets/images/img-eoff/fav-eoff.png" type="image/x-icon">
   <link rel="icon" href="assets/images/img-eoff/fav-eoff.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/custom.css">
 
   <!-- Stylesheets css-->
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="assets/fontawesome-free-6.2.0-web/css/all.min.css">
 
 </head>
 
 
 <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
 
-  <div id="loading-page">
+  <!-- <div id="loading-page">
       <div id="loading-center-page">
          <div id="loading-center-absolute">
              <div class="bouncer">
@@ -34,7 +36,7 @@
               </div>
          </div>
       </div>
-  </div>
+  </div> -->
 
   <!-- Content Page -->
   <div class="warpper clearfix">
@@ -59,9 +61,7 @@
                 <li class="nav-item "> <a href="evaluasi.html" class="nav-link">Evaluasi</a> </li>
                 <li class="nav-item "> <a href="pelaporan.html" class="nav-link">Pelaporan</a> </li>
                 <li class="nav-item "> <a href="geografis.html" class="nav-link">Geografis</a> </li>
-                <!-- <li class="nav-item btw__plybtn"> 
-                    <a href="#"><img src="assets/images/img-eoff/google-btn.png" class="img-fluid w-75 mx-auto" alt=""></a>
-                </li> -->
+
               </ul>
 
             </div>
@@ -70,155 +70,65 @@
       </header>
       <!--Header-->
 
-      <!--Begin Hero Section-->
 
-      <section id="home" class=" hero pd-tp-100 pd-bt-100 ">
-
-        <div class="svg-divider svg-divider-bt text-light translate-y-5">
-          <svg preserveAspectRatio="none" viewBox="0 0 1635 95" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M0,32 C204.666667,10.6666667 354.666667,-2.27373675e-13 450,-2.27373675e-13 C559.698787,-2.27373675e-13 826,28 1104,41 C1289.33333,49.6666667 1466.33333,41.6666667 1635,17 L1635,95 L0,95 L0,32 Z"
-              fill="#fff"></path>
-          </svg>
-
-        </div>
+      <section class="hero pd-tp-100 pd-bt-100" id="home">
         <div class="container">
-          <div class="row">
-            <div class="col-md-5 col-lg-5 col-12 col-sm-5 p-4">
-              <div class=" hero-text pd-tp-60" data-aos="fade-up" >
-                <div class="position-relative z-index">
-                  <form class="text-left">
-                    <div class="mb-4">
-                      <!-- <label for="exampleInputEmail1" class="form-label">Username</label> -->
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
-                    </div>
-                    <div class="mb-4">
-                      <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="mb-4 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                    </div>
-                    <div class="digital-signin mx-auto">
-                      <div class="d-flex align-items-center justify-content-center my-4">
-                        <a href="#"><img src="assets/images/img-eoff/logooo.png" class="logo__lo" alt="logogo"></a>
-                        <span>Digital signatur by</span>
-                        <a href="#"><img src="assets/images/img-eoff/logo-bsre.png" class="logo__bsre"  alt="logogo"></a>
-                      </div>
-                    </div>
-                    <div class="text-center">
-                      <a href="#" class="btn__logg">
-                      <svg width="277" height="62">
-                        <defs>
-                          <linearGradient id="grad1">
-                            <stop offset="0%" stop-color="#FF8282"/>
-                            <stop offset="100%" stop-color="#E178ED" />
-                          </linearGradient>
-                        </defs>
-                         <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
-                      </svg>
-                      <!--<span>Voir mes réalisations</span>-->
-                        <span>Login</span>
-                      </a>
-                      </div>
-    
-                  </form>
-      
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-7 position-relative col-lg-7 col-12 col-sm-7 d-flex justify-content-center">
-
-              <div class="text-center pd-tp-30">
-                <div class="mobile-staff">
-
-                  <div class="mobile-img" data-aos="zoom-in-up" data-aos-delay="300">
-                    <img src="assets/images/img-eoff/home-right.png" class="img_mbstaff" alt="">
+            <div class="row">
+              <div class="col-md-5 position-reltaive col-lg-5 col-12 col-sm-12">
+                <h1 class="display-4 fw-bold mt-5 mb-3 theme-text-accent-one animate-charcter">E-Sakip Ogan Ilir</h1>
+                <p class="mb-5 theme-text-accent-two">Pengukuran kinerja merupakan suatu alat manajemen yang digunakan untuk meningkatkan kualitas pengambilan keputusan dan akuntabilitas.</p>
+                <div class="group">
+                  <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Username">
                   </div>
-
-                  <!-- <div class="icon-pos">
-                    <div class="icon-pos-1" data-aos="zoom-in" data-aos-delay="500">
-                      <img src="assets/images/img-eoff/gif/109509-location-pin.gif" alt="">
-                    </div>
-                    <div class="icon-pos-2" data-aos="zoom-in-down" data-aos-delay="800">
-                      <img src="assets/images/flash-icon.svg" alt="">
-                    </div>
-                    <div class="icon-pos-3" data-aos="zoom-in" data-aos-delay="1000">
-                      <img src="assets/images/message-icon.svg" alt="" >
-                    </div>
-                    <div class="icon-pos-4" data-aos="zoom-out" data-aos-delay="1200">
-                      <img src="assets/images/video-icon.svg" alt="">
-                    </div>
-                    <div class="icon-pos-5" data-aos="zoom-in" data-aos-delay="1400">
-                      <img src="assets/images/img-eoff/gif/112127-gamma-chart.gif" alt="">
-                    </div>
-                    <div class="icon-pos-6" data-aos="zoom-in" data-aos-delay="1600">
-                      <img src="assets/images/img-eoff/gif/115978-logo-morphing-concept.gif" alt="">
-                    </div>
-
-                  </div> -->
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="******">
+                  </div>
+                  <button type="button" class="btn_login__eoff">Login</button>
                 </div>
               </div>
-
-            </div>
-          </div>
-
-        </div>
-
-      </section>
-
-      <section id="about" class=" pd-tp-100 pd-bt-100 ">
-        <div class="container">
-          <!--- text block-->
-          <div class="row">
-
-            <div class="col-md-5 position-reltaive col-lg-5 col-12 col-sm-12 col-imgs">
-              <div class="card-img pd-tp-100" data-aos="zoom-in">
-                <!-- <div class="emoji-1" data-aos="fade-up" data-aos-delay="200">
-                  <img src="assets/images/img-eoff/gif/message.gif" alt="">
-                </div> -->
-                <img src="assets/images/img-eoff/diagram-sakip.png" alt="">
-                <!-- <div class="emoji-2" data-aos="fade-up" data-aos-delay="400">
-                  <img src="assets/images/img-eoff/gif/statistik.gif"  alt="">
-                </div> -->
-              </div>
-            </div>
-
-            <div class="col-md-6 offset-md-1 offset-lg-1 col-lg-6 col-12 col-sm-12">
-              <div class="block-text pd-tp-40"  data-aos="fade-in" >
-
-                <h2><strong>E-</strong>Sakip</h2>
-                <p>Implementasi Sistem Akuntabilitas Kinerja Instansi Pemerintah (SAKIP)<br>
-                    Mengacu kepada peraturan perundang-undangan yang berlaku, antara lain:
-                </p>
-
-                <div class="list-check">
-                  <ul>
-                  <li>
-                    <h3>UU No. 17 Tahun 2003 tentang Keuangan Negara</h3>
-                    <p>Asas pengelolaan keuangan negara adalah akuntabilitas berorientasi hasil.</p>
-                  </li>
-                  <li>
-                    <h3>PP No. 8 Tahun 2006 tentang Pelaporan Keuangan dan Kinerja Instansi Pemerintah.</h3>
-                    <p>Kewajiban melaporkan akuntabilitas keuangan dan akuntabilitas kinerja pemerintah.</p>
-                  </li>
-                  <li>
-                    <h3>Perpres No. 29 Tahun 2014 tentang Sistem Akuntabilitas Kinerja Instansi Pemerintah.</h3>
-                    <p></p>
-                  </li>
-                </ul>
+              <div class="col-md-6 offset-md-1 offset-lg-1 col-lg-6 col-12 col-sm-12">
+                <div class="hero-wrap">
+                  <div class="hero-icons">
+                    <a href="perencanaan.html" class="icons-box icon1 box-icon-float">
+                      <img src="assets/images/img-eoff/esakip-design/L01.png" class="img-diagram-sakip" alt="">
+                    </a>
+                    <div class="icons-box icon2 box-icon-float">
+                      <a href="perencanaan.html">
+                        <img src="assets/images/img-eoff/esakip-design/L02.png" class="img-diagram-sakip" alt="">
+                      </a>
+                    </div>
+                    <div class="icons-box icon3 box-icon-float">
+                      <a href="pengukuran.html">
+                        <img src="assets/images/img-eoff/esakip-design/L03.png" class="img-diagram-sakip" alt="">
+                      </a>
+                    </div>
+                    <div class="icons-box icon5 box-icon-float">
+                      <a href="pengukuran.html">
+                        <img src="assets/images/img-eoff/esakip-design/L04.png" class="img-diagram-sakip" alt="">
+                      </a>
+                    </div>
+                    <div class="icons-box icon6 box-icon-float">
+                      <a href="pelaporan.html">
+                        <img src="assets/images/img-eoff/esakip-design/L05.png" class="img-diagram-sakip" alt="">
+                      </a>                    
+                    </div>
+                    <div class="icons-box icon4 box-icon-float">
+                      <a href="evaluasi.html">
+                        <img src="assets/images/img-eoff/esakip-design/L06.png" class="img-diagram-sakip" alt="">
+                      </a>                     
+                    </div>
+                  </div>
+                  <div class="hero-inner">
+                    <img src="assets/images/img-eoff/esakip.png" class="img-fluid" alt="hero main image">
+                  </div>
                 </div>
-
-
-
               </div>
             </div>
-
-          </div>
         </div>
-      </section>
+    </section>
 
       <section id="cta">
         <div class="container pd-tp-100 pd-bt-100">
@@ -357,6 +267,7 @@
   <script src="assets/js/main.js "></script>
   <script src="assets/vendor/chart.js/dist/chart.js"></script>
   <script src="assets/vendor/leaflet/leaflet.js"></script>
+  <script src="assets/fontawesome-free-6.2.0-web/js/all.min.js"></script>
 
 </body>
 
