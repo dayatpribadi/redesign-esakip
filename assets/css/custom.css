@@ -1,0 +1,251 @@
+/*-- hero section css --*/
+.hero {
+    position: relative;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero {
+      padding: 0;
+    }
+  }
+  
+  .hero::after {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/images/img-eoff/dot-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 700px;
+    height: 700px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .hero::after {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .hero::after {
+      top: 50%;
+      right: 20%;
+    }
+  }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    z-index: -1;
+    background-color: rgba(235, 246, 255, 0.7);
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .hero::before {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  
+  .hero .hero-wrap {
+    position: relative;
+    border-radius: 100%;
+    padding: 2rem;
+    border: 2px dashed #002880;
+    max-width: 550px;
+    max-height: 550px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero .hero-wrap {
+      margin-top: 8rem;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .hero .hero-wrap {
+      max-width: 350px;
+    }
+  }
+  
+  .hero .hero-wrap .hero-inner {
+    background-color: #EBF6FF;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .hero .hero-wrap .hero-icons .icons-box {
+    position: absolute;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 1.375rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 1.375rem rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 7.25rem;
+    height: 7.25rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .hero .hero-wrap .hero-icons .icons-box:hover {
+    background-color: #002880;
+  }
+  
+  .hero .hero-wrap .hero-icons .icons-box:hover #train-icon, .hero .hero-wrap .hero-icons .icons-box:hover #car-icon, .hero .hero-wrap .hero-icons .icons-box:hover #flight-icon, .hero .hero-wrap .hero-icons .icons-box:hover #hotel-icon, .hero .hero-wrap .hero-icons .icons-box:hover #location-icon, .hero .hero-wrap .hero-icons .icons-box:hover #api-icon {
+    fill: #ffffff;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .hero .hero-wrap .hero-icons .icons-box {
+      width: 3.5rem;
+      height: 3.5rem;
+      padding: 1rem;
+    }
+  }
+  
+  .hero .hero-wrap .hero-icons .icon1 {
+    top: 80px;
+    left: -10px;
+  }
+  
+  .hero .hero-wrap .hero-icons .icon2 {
+    top: -40px;
+    left: 40%;
+  }
+  
+  .hero .hero-wrap .hero-icons .icon3 {
+    top: 80px;
+    left: 84%;
+  }
+  
+  .hero .hero-wrap .hero-icons .icon4 {
+    top: 380px;
+    left: -10px;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .hero .hero-wrap .hero-icons .icon4 {
+      top: 280px;
+    }
+  }
+  
+  .hero .hero-wrap .hero-icons .icon5 {
+    top: 380px;
+    left: 84%;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .hero .hero-wrap .hero-icons .icon5 {
+      top: 280px;
+    }
+  }
+  
+  .hero .hero-wrap .hero-icons .icon6 {
+    top: 500px;
+    left: 40%;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .hero .hero-wrap .hero-icons .icon6 {
+      top: 350px;
+    }
+  }
+  
+  /* icons float css*/
+  .box-icon-float {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+    -webkit-animation: float 6s ease-in-out infinite;
+            animation: float 6s ease-in-out infinite;
+  }
+  
+  @-webkit-keyframes float {
+    0% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      -webkit-transform: translatey(-20px);
+              transform: translatey(-20px);
+    }
+    100% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+  }
+  
+  @keyframes float {
+    0% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      -webkit-transform: translatey(-20px);
+              transform: translatey(-20px);
+    }
+    100% {
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+  }
+  
+  #train-icon, #car-icon, #flight-icon, #hotel-icon, #location-icon, #api-icon {
+    fill: #002880;
+  }
+  
+  /*-- hero heading color effect --*/
+  .animate-charcter {
+    background-image: linear-gradient(-225deg, #002880 0%, #EC202B 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: textclip 2s linear infinite;
+            animation: textclip 2s linear infinite;
+  }
+  
+  @-webkit-keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+
+.btn_login__eoff {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+}
