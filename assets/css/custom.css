@@ -244,8 +244,19 @@
 
 
 
-.btn_login__eoff {
-    padding-left: 20px;
-    padding-right: 20px;
+button.btn_login__eoff {
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 40px;
+    border: none;
+    color: #EBF6FF;
+    background-color: #0193de;
+
+}
+
+button.btn_login__eoff:hover {
+  border: 1px solid #0193de;
+  background-color: transparent;
+  color: #0193de;
+
 }
